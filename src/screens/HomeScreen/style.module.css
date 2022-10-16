@@ -1,0 +1,42 @@
+
+.showImageContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+.backDropEffect{
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+
+.backDropEffect:hover {
+    background-color: #000;
+    opacity: 0.5;
+    display: block !important;
+    visibility: visible !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 1111;
+}
+.showImageContainer img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.mr_8 {
+    margin-right: 8px;
+}
+.addContainer {
+    margin: 0 16%;
+}

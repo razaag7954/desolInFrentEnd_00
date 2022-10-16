@@ -1,0 +1,25 @@
+.uploadImageContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    line-height: 1;
+}
+.addIcon {
+    font-size: 22px;
+    margin-top: -6px;
+    margin-right: 4px;
+}
