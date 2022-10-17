@@ -12,7 +12,6 @@ export const FileUpload = ({handleFile}) => {
                 type="file"
                 onChange={handleFile}
                 style={{display: 'none'}}
-                multiple
                 accept=".jpeg, .pdf, .png, .jpg"
             />
 
